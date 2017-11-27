@@ -62,7 +62,8 @@ html, body {
 .intro {
 	width: 400px;
 	position: relative;
-	transform: translateY(100%);
+	transform: translateY(80%);
+	line-height: 1.5;
 	margin-left: 116px;
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
