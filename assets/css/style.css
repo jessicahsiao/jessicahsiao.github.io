@@ -1,0 +1,325 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* LEFT PANEL homepage */
+.container {
+	position: absolute;
+	top: 22%;
+	margin: 0 auto;
+	left: 20%;
+}
+
+
+#left {
+	height: 100%;
+	width: 50%;
+	float: left;
+	position: fixed;
+}
+.panel {
+	background-color: #B1B479;
+	width: 50%;
+}
+
+#name {
+	font-family: 'Raleway', sans-serif;
+	font-size: 80;
+	font-weight: 700;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+#hsiao {
+	overflow: hidden;
+	position: relative;
+	transform: translateX(-30%) translateY(-20%);
+	margin: 0 auto;
+	height: 250%;
+	width: 250%;
+	display: none;
+}
+
+/* RIGHT PANEL homepage */
+
+
+
+#right {
+	float: right;
+	
+}
+
+.panel2 {
+	background-color: white;
+	width: 50%;
+}
+
+
+.intro {
+	width: 400px;
+	position: relative;
+	transform: translateY(100%);
+	margin-left: 116px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	color: #1C1714;
+}
+
+h1 {
+	font-family: 'Raleway';
+	font-size: 40;
+	font-style: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #DC9FB4;
+}
+
+.button {
+	color: #DC9FB4;
+	margin: 2px 8px;
+	padding: 0px;
+	transition: 0.2s ease;
+}
+
+.button:hover {
+	margin: 0px;
+	padding: 2px 8px;
+	color: white;
+	background: #DC9FB4;
+	cursor: pointer;
+}
+
+.typed-name {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .07em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  animation: typing 1.5s steps(40, end), blink-caret .75s step-end infinite;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+
+/*ABOUT */
+#logo {
+	position: relative;
+	display: inline-block;
+	top: 36px;
+	left: 56px;
+}
+
+#name-logo {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30;
+	
+}
+
+#hsiao-logo {
+	height: 200%;
+	width: 200%;
+	transform: translateX(15%) translateY(-42%);
+}
+
+#logo a {
+	color: black;
+}
+
+#navbar {
+	background-color: white;
+	position:fixed;
+	width:100%;
+	height: 80px;
+	z-index:80;
+	
+}
+#nav-items{
+	position:absolute;
+	top:40px;
+	left: 700px;
+	z-index: 100;
+	
+	
+}
+.navbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 12;
+	letter-spacing:  3px;
+	font-weight:400;
+	padding-left:80px;
+	line-height: 10px;
+	text-transform: uppercase;
+	font-family: 'Raleway';
+}
+
+.navbar-text:hover{
+	opacity:0.6;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+
+#about-me {
+	top: 200px;
+	width: 800px;
+	position: relative;
+	left: 200px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16;
+	line-height: 2;
+}
+
+
+
+/*Project */
+
+#project-row {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	transform: translateY(20%);
+}
+
+.proj-item {
+	height: 50%;
+	width: 50%;
+	cursor: pointer;
+	display: inline-block;
+	text-align: left;
+}
+
+.preview {
+	width: 100%;
+	height: 100%;
+}
+
+.proj-title {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 40;
+}
+
+.proj-title:hover {
+	color: #B1B479;
+	cursor: pointer;
+}
+
+
+.bmap {
+	height: 80%;
+	width: 80%;
+	position: relative;
+	transform: translateY(3%);
+	display: none;
+}
+
+
+.bmap-description {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16;
+	height: 50%;
+	width: 85%;
+	transform: translateY(20%);
+
+}
+
+.snap-description {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16;
+	height: 50%;
+	width: 85%;
+	transform: translateY(20%);
+
+}
+.snap {
+	height: 85%;
+	width: 88%;
+	position: relative;
+	transform: translateX(-3%);
+	display: none;
+}
+
+/* CONTACT */
+#contact-links {
+	display: inline-block;
+	position: relative;
+	left: 770px;
+	transform: translateY(-65%);
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contact-links a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50;
+	font-weight: 300;
+	color: black;
+}
+
+#contact-links a:hover {
+	color: white;
+	margin: 0px;
+	padding: 1px 7px 1px;
+	background-color: #DC9FB4;
+}
+
+#greeting {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50;
+	font-weight: 700;
+	color: #1C1714;
+	height: 300px;
+	width: 50%;
+	position: relative;
+	transform: translateY(60%);
+	left: 150px;
+}
+
+#connect {
+	width: 410px;
+	position: relative;
+	left: 150px;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	color: #B1B479;
+	border-bottom: 14px solid rgba(251, 150, 110, .5);
+}
