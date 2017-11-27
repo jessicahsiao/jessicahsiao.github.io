@@ -25,7 +25,7 @@ $(document).ready(function() {
 
            $(".bmap").show(600);
            $(".bmap-description").hide(600);
-               
+               s
 
 
         } else {
