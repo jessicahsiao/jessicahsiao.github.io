@@ -249,6 +249,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 16;
+	line-height: 2;
 	height: 50%;
 	width: 85%;
 	transform: translateY(20%);
@@ -259,6 +260,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 16;
+	line-height: 2;
 	height: 50%;
 	width: 85%;
 	transform: translateY(20%);

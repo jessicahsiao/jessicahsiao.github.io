@@ -8,7 +8,7 @@ $(document).ready(function() {
     $("p").hide() //jQuery Function 2
 
     $("#about-me").hover(function() {
-        $("p").slideDown(500) //jQuery Function 2
+        $("p").slideDown(500) ;//jQuery Function 2
     })
 
  
